@@ -7,6 +7,7 @@ This is repository about Payfazz automation testing using appium an cucumber
 * Appium
 * Android Emulator from Android Studio
 * uiautomatorviewer
+* Git
 
 ## Installation
 * Installing Ruby in your machine
@@ -36,6 +37,12 @@ This is repository about Payfazz automation testing using appium an cucumber
   * Extract file ``.zip``
   * Go into directory ``android-studio/bin`` from terminal
   * run command ``./studio.sh``
+  
+* Instaling Git in your machine
+  ``sudo apt-get install git-core``
+  
+  check your git version, run in terminal
+  ``git --version``
   
 ## Run automation
    From terminal run 
