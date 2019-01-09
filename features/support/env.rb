@@ -7,7 +7,7 @@ def caps
           app: (File.join(File.dirname(__FILE__ ), "agen-debug.apk")),
           appPackage: "com.payfazz.android.debug",
           appActivity: "com.payfazz.android.splash.presentation.activity.SplashActivity",
-          newCommandTimeout: "3600"
+          newCommandTimeout: "7200"
   }
 
   }

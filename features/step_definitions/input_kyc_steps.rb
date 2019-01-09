@@ -7,7 +7,7 @@ Then("I click Pengajuan Buka Fitur button") do
 end
 
 Then("I click Verifikasi Dasar Card button") do
-  text("ISI DOKUMEN SEKARANG").click
+  text("Verifikasi Dasar").click
 end
 
 Then("I click Dokumen KTP card button") do
@@ -49,11 +49,11 @@ end
 Then("I verify KTP dokumen that i have been inputed") do
   text("Konfirmasi Dokumen")
   find_element(id: "tv_answer")
-  find_element(id: "rv_answers")
+  find_element(id: "iv_answer")
 end
 
-Then("I click Kirim Dokumen Sekarang") do
-  find_element(id: "btn_send")
+Then("I click Kirim Dokumen Sekarang button") do
+  find_element(id: "btn_send").click
 end
 
 Then("I verify Dokument KTP has been inputed") do
@@ -78,7 +78,9 @@ Then("I click Foto Tanda Tangan button") do
 end
 
 Then("I verify Biometrik dokumen that i have been inputed") do
-  pending # Write code here that turns the phrase above into concrete actions
+  text("Konfirmasi Dokumen")
+  text("Foto Biometrik")
+  text("Foto Tanda Tangan")
 end
 
 Then("I click Kirim button") do
@@ -86,13 +88,35 @@ Then("I click Kirim button") do
 end
 
 Then("I verify documents already been sent to server") do
-  pending # Write code here that turns the phrase above into concrete actions
+  text("Dokumen Anda Berhasil Dikirim")
 end
 
 Then("I click Kembali ke Halaman Buka fitur button") do
-  pending # Write code here that turns the phrase above into concrete actions
+  find_element(id: "button").click
 end
 
 Then("I verify documents was being processed") do
-  pending # Write code here that turns the phrase above into concrete actions
+  text("Verifikasi Akun")
+  text("DOKUMEN SEDANG DIVERIFIKASI")
+end
+
+Then("I verify Dokumen Biometrik has been inputed") do
+  text("Dokumen Biometrik")
+  find_element(id: "iv_item")
+end
+
+Then("I click Foto KTP dan Selfie card button") do
+  text("Foto KTP + Selfie").click
+end
+
+Then("I verify photo that has been taken") do
+  find_element(id: "iv_photo")
+end
+
+Then("I fill login Password {string}") do |password_akun|
+  find_element(id: "et_big_input").send_keys("#{password_akun}")
+end
+
+Then(/^I dismiss instabug ad$/) do
+  find_element(id: "ib_core_onboarding_container").click
 end
