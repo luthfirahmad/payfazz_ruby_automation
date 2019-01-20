@@ -29,7 +29,10 @@ Feature:
     Then I click Mulai Transaksi Sekarang
     Then I land on Home page
     Examples:
-      |phone_number     |password               |
-      |081156785935    |Ultraman123            |
+      |phone_number    |password               |
+      #|08124455332217  |Ultraman123            |
+      |08124455332218  |Ultraman123            |
+      #|08124455332219  |Ultraman123            |
+
 
 

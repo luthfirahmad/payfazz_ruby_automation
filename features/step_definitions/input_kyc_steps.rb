@@ -2,8 +2,8 @@ Then("I click Akun button menu") do
   find_element(id: "ic_bottom_nav_account").click
 end
 
-Then("I click Pengajuan Buka Fitur button") do
-  text("Pengajuan Buka Fitur").click
+Then("I click Verifikasi Dasar button") do
+  text("Verifikasi Akun").click
 end
 
 Then("I click Verifikasi Dasar Card button") do
@@ -46,19 +46,12 @@ Then("I click Selesai button") do
   text("SELESAI").click
 end
 
-Then("I verify KTP dokumen that i have been inputed") do
-  text("Konfirmasi Dokumen")
-  find_element(id: "tv_answer")
-  find_element(id: "iv_answer")
+Then("I verify KTP dokumen {string} that i have been inputed") do |nik_ktp|
+  find_element(xpath: "//android.widget.TextView[@text='#{nik_ktp}']")
 end
 
 Then("I click Kirim Dokumen Sekarang button") do
   find_element(id: "btn_send").click
-end
-
-Then("I verify Dokument KTP has been inputed") do
-  find_element(id: "iv_item")
-  text("Dokumen KTP")
 end
 
 Then("I click Dokumen Biometrik card button") do
@@ -119,4 +112,13 @@ end
 
 Then(/^I dismiss instabug ad$/) do
   find_element(id: "ib_core_onboarding_container").click
+end
+
+Then("I click shutter camera button") do
+  #press_keycode 27
+  Appium::TouchAction.new.tap(x: 531.5, y: 1609.6, count: 1).wait(5000).perform
+end
+
+Then("I click confirm camera button") do
+  Appium::TouchAction.new.tap(x: 963.9, y: 1626.8, count: 1).perform
 end

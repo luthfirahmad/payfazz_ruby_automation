@@ -3,12 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="0b076b72-94dd-4dba-8ee4-a65a71f33eb5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/credential.feature" beforeDir="false" afterPath="$PROJECT_DIR$/features/credential.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/features/input_kyc.feature" beforeDir="false" afterPath="$PROJECT_DIR$/features/input_kyc.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/features/credential.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/features/step_definitions/input_kyc_steps.rb" beforeDir="false" afterPath="$PROJECT_DIR$/features/step_definitions/input_kyc_steps.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/step_definitions/login_steps.rb" beforeDir="false" afterPath="$PROJECT_DIR$/features/step_definitions/credential_steps.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/support/agen-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/features/support/agen-debug.apk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/support/env.rb" beforeDir="false" afterPath="$PROJECT_DIR$/features/support/env.rb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,7 +19,7 @@
         <entry file="file://$PROJECT_DIR$/features/support/env.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
-              <caret line="16" column="22" lean-forward="true" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+              <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -40,7 +37,7 @@
         <entry file="file://$PROJECT_DIR$/features/credential.feature">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="480">
-              <caret line="32" column="19" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
+              <caret line="32" column="8" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -48,8 +45,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/features/step_definitions/credential_steps.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="3" lean-forward="true" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
+            <state relative-caret-position="240">
+              <caret line="32" selection-start-line="32" selection-end-line="32" />
             </state>
           </provider>
         </entry>
@@ -57,8 +54,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/features/step_definitions/input_kyc_steps.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="705">
-              <caret line="105" column="3" lean-forward="true" selection-start-line="105" selection-start-column="3" selection-end-line="105" selection-end-column="3" />
+            <state relative-caret-position="344">
+              <caret line="61" column="48" lean-forward="true" selection-start-line="61" selection-start-column="48" selection-end-line="61" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -66,8 +63,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/features/input_kyc.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="415">
-              <caret line="52" column="60" selection-start-line="52" selection-start-column="44" selection-end-line="52" selection-end-column="60" />
+            <state relative-caret-position="458">
+              <caret line="61" column="56" selection-start-line="61" selection-start-column="56" selection-end-line="61" selection-end-column="56" />
             </state>
           </provider>
         </entry>
@@ -94,14 +91,14 @@
         <option value="$PROJECT_DIR$/features/step_definitions/login_steps.rb" />
         <option value="$PROJECT_DIR$/features/step_definitions/credential_steps.rb" />
         <option value="$PROJECT_DIR$/features/support/env.rb" />
-        <option value="$PROJECT_DIR$/features/step_definitions/input_kyc_steps.rb" />
         <option value="$PROJECT_DIR$/features/credential.feature" />
+        <option value="$PROJECT_DIR$/features/step_definitions/input_kyc_steps.rb" />
         <option value="$PROJECT_DIR$/features/input_kyc.feature" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="357" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="231" />
     <option name="y" value="24" />
     <option name="width" value="939" />
     <option name="height" value="704" />
@@ -112,7 +109,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -141,6 +137,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -181,18 +178,21 @@
       <workItem from="1546830216736" duration="19515000" />
       <workItem from="1546921215638" duration="2813000" />
       <workItem from="1546929380599" duration="9835000" />
-      <workItem from="1546998913613" duration="16034000" />
+      <workItem from="1546998913613" duration="19507000" />
+      <workItem from="1547525997718" duration="7215000" />
+      <workItem from="1547903505316" duration="17000" />
+      <workItem from="1547911798139" duration="4845000" />
+      <workItem from="1547949277393" duration="5206000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48197000" />
+    <option name="totallyTimeSpent" value="68953000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="357" y="24" width="939" height="704" extended-state="0" />
-    <editor active="true" />
+    <frame x="65" y="-4" width="1301" height="772" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3594625" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27968127" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -205,7 +205,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32928944" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32928944" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.29457363" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -220,6 +220,13 @@
     <entry file="file://$PROJECT_DIR$/features/support/hooks.rb" />
     <entry file="file://$PROJECT_DIR$/features/input_ktp.feature" />
     <entry file="file://$PROJECT_DIR$/features/step_definitions/input_ktp_steps.rb" />
+    <entry file="file://$PROJECT_DIR$/features/support/env.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/features/support/hook.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -227,38 +234,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/support/env.rb">
+    <entry file="file://$PROJECT_DIR$/features/credential.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="22" lean-forward="true" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/step_definitions/input_kyc_steps.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="705">
-          <caret line="105" column="3" lean-forward="true" selection-start-line="105" selection-start-column="3" selection-end-line="105" selection-end-column="3" />
+        <state relative-caret-position="480">
+          <caret line="32" column="8" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/features/step_definitions/credential_steps.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="3" lean-forward="true" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
+        <state relative-caret-position="240">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/credential.feature">
+    <entry file="file://$PROJECT_DIR$/features/step_definitions/input_kyc_steps.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="19" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
+        <state relative-caret-position="344">
+          <caret line="61" column="48" lean-forward="true" selection-start-line="61" selection-start-column="48" selection-end-line="61" selection-end-column="48" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/features/input_kyc.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="415">
-          <caret line="52" column="60" selection-start-line="52" selection-start-column="44" selection-end-line="52" selection-end-column="60" />
+        <state relative-caret-position="458">
+          <caret line="61" column="56" selection-start-line="61" selection-start-column="56" selection-end-line="61" selection-end-column="56" />
         </state>
       </provider>
     </entry>
