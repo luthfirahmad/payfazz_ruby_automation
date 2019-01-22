@@ -14,7 +14,7 @@ Feature:
   Scenario Outline: Register in aplikasi Payfazz
     Given I land on onboarding page
     Then I click on Register button
-    Then I dismiss instabug ad
+    #Then I dismiss instabug ad
     Then I fill phone number "<phone_number>"
     Then I click Lanjut button
     Then I fill Nama Toko Saya "Toko QA"
@@ -30,9 +30,9 @@ Feature:
     Then I land on Home page
     Examples:
       |phone_number    |password               |
-      #|08124455332217  |Ultraman123            |
-      |08124455332218  |Ultraman123            |
-      #|08124455332219  |Ultraman123            |
+      |08124455334444  |Ultraman123            |
+      |08124455335555  |Ultraman123            |
+      |08124455336666  |Ultraman123            |
 
 
 
